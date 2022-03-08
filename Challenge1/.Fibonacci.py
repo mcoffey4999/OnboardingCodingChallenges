@@ -1,13 +1,13 @@
-int ans = 0;
-int start1 = 1;
-int start2 = 2;
-int initRes = 0;
-for(int i = 0; i <= 4000; i++){
-  if(start2 % 2 == 0){
-    ans += start2;
-  }
-  initRes = start1 + start2;
-  start1 = start2;
-  start2 = initRes;
-}
-Console.WriteLine(ans);
+ans = 0
+start1 = 1
+start2 = 2
+initRes = 0
+count = 0
+while count <= 4000000:
+    if start2%2==0:
+        ans += start2
+    initRes = start1 + start2
+    start1 = start2
+    start2 = initRes
+    count += 1
+print(ans);
