@@ -3,7 +3,7 @@ start1 = 1
 start2 = 2
 initRes = 0
 count = 0
-while count <= 4000000:
+while count <= 4000000 or start2 <= 4000000:
     initRes = start1 + start2
     start1 = start2
     start2 = initRes
