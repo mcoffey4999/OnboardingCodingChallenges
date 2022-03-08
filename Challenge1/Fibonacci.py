@@ -4,7 +4,6 @@ start2 = 2
 initRes = 0
 count = 0
 while count <= 4000000:
-    print(ans)
     initRes = start1 + start2
     start1 = start2
     start2 = initRes
